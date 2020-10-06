@@ -29,7 +29,7 @@ export default class courses extends React.Component {
           dataSource={courseData.course}
           renderItem={(item) => (
             <List.Item
-              key={item.description}
+              key={item.title}
               extra={
                 <td>
                   {item.completed}% completed |{" "}
