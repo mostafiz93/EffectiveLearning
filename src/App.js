@@ -2,12 +2,25 @@ import React from 'react';
 import './App.css';
 
 import Sidebar from './components/layout';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+} from "react-router-dom";
+import Example from './components/sidebar/example'
 
 function App() {
 	return (
-		<div className='App'>
-			<Sidebar />
-		</div>
+		<Router>
+			<div className='App'>
+				<Switch>
+					<Route path="/example" component={Example} />
+					<Route path="/" component={Sidebar} />
+				</Switch>
+
+			</div>
+
+		</Router>
 	);
 }
 
