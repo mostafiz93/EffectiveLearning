@@ -3,9 +3,9 @@ import React from 'react'
 import { Layout, Menu, Breadcrumb } from 'antd';
 import {
     BrowserRouter as Router,
-    Link,
-
+    Link
 } from "react-router-dom";
+
 import {
     DesktopOutlined,
     LinkOutlined,
@@ -75,10 +75,6 @@ export default class Sidebar extends React.Component {
                     </Menu.Item>
                 </Menu>
             </Sider>
-
-
-
-
         );
     }
 }
