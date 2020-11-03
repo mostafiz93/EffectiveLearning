@@ -1,10 +1,10 @@
-
 import React from 'react'
 
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 import Sidebar from './sidebar/sidebar';
 
+import React from "react";
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -35,7 +35,7 @@ export default class layout extends React.Component {
 			</Layout>
 		);
 	}
-}
 
+}
 
 
