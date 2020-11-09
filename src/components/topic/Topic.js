@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Steps } from 'antd';
-import { TOPICS } from './TOPICS';
-import TopicModal from './TopicModal';
+import { TOPICS } from './staticData';
+import TopicModal from './topicModal';
 const { Step } = Steps;
 
 export default class Topic extends Component {
