@@ -3,7 +3,7 @@ import React from "react";
 import { List, Avatar } from "antd";
 import courseData from "./dataSource";
 
-export default class courses extends React.Component {
+export default class Courses extends React.Component {
   state = {
     collapsed: false,
   };
