@@ -47,13 +47,8 @@ export default class Sidebar extends React.Component {
                         <Menu.Item key='4'>C</Menu.Item>
                     </SubMenu>
                     <Menu.Item key='2' icon={<DesktopOutlined />}>
-                        <Link to={"/example"}>eLearning</Link>
+                        <Link to={"/home/courses"}>eLearning</Link>
                     </Menu.Item>
-                    <SubMenu key='sub2' icon={<UserOutlined />} title='Bank Rules'>
-                        <Menu.Item key='5'>A</Menu.Item>
-                        <Menu.Item key='6'>B</Menu.Item>
-                        <Menu.Item key='7'>C</Menu.Item>
-                    </SubMenu>
                     <Menu.Item key='8' icon={<FileOutlined />}>
                         <Link to={"/example"}>Files</Link>
                     </Menu.Item>
@@ -63,9 +58,9 @@ export default class Sidebar extends React.Component {
                     <Menu.Item key='10' icon={<GlobalOutlined />}>
                         <Link to={"/example"}>News</Link>
                     </Menu.Item>
-                    <Menu.Item key='11' icon={<CameraOutlined />}>
+                    {/* <Menu.Item key='11' icon={<CameraOutlined />}>
                         <Link to={"/example"}>Media</Link>
-                    </Menu.Item>
+                    </Menu.Item> */}
                     <Menu.Item key='12' icon={<LinkOutlined />}>
                         <Link to={"/example"}>External Links</Link>
                     </Menu.Item>
