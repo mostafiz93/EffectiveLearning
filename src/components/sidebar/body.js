@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from 'antd';
 import Sidebar from './sidebar';
 import Courses from '../courses/courses';
-import Topic from '../topic/Topic';
+import Topic from '../topic/topic';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const { Header, Content } = Layout;
